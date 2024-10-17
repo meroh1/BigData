@@ -1,0 +1,62 @@
+[
+    {
+      "_id": 1,
+      "userId": 1,
+      "cardNumber": "4111111111111111",
+      "expirationDate": "12/26",
+      "cvv": "123",
+      "billingAddress": "Calle Falsa 123",
+      "createdAt": { "$date": "2024-10-15T00:00:00Z" },
+      "updatedAt": { "$date": "2024-10-15T00:00:00Z" }
+    },
+    {
+      "_id": 2,
+      "userId": 2,
+      "cardNumber": "4222222222222222",
+      "expirationDate": "11/25",
+      "cvv": "456",
+      "billingAddress": "Avenida Siempreviva 742",
+      "createdAt": { "$date": "2024-10-14T00:00:00Z" },
+      "updatedAt": { "$date": "2024-10-14T00:00:00Z" }
+    },
+    {
+      "_id": 3,
+      "userId": 3,
+      "cardNumber": "4333333333333333",
+      "expirationDate": "10/24",
+      "cvv": "789",
+      "billingAddress": "Boulevard Principal 555",
+      "createdAt": { "$date": "2024-10-13T00:00:00Z" },
+      "updatedAt": { "$date": "2024-10-13T00:00:00Z" }
+    },
+    {
+      "_id": 4,
+      "userId": 4,
+      "cardNumber": "4444444444444444",
+      "expirationDate": "09/23",
+      "cvv": "012",
+      "billingAddress": "Calle Nueva 321",
+      "createdAt": { "$date": "2024-10-12T00:00:00Z" },
+      "updatedAt": { "$date": "2024-10-12T00:00:00Z" }
+    },
+    {
+      "_id": 5,
+      "userId": 5,
+      "cardNumber": "4555555555555555",
+      "expirationDate": "08/22",
+      "cvv": "345",
+      "billingAddress": "Calle Principal 444",
+      "createdAt": { "$date": "2024-10-11T00:00:00Z" },
+      "updatedAt": { "$date": "2024-10-11T00:00:00Z" }
+    },
+    {
+      "_id": 6,
+      "userId": 6,
+      "cardNumber": "4666666666666666",
+      "expirationDate": "07/21",
+      "cvv": "678",
+      "billingAddress": "Calle Libertad 789",
+      "createdAt": { "$date": "2024-10-10T00:00:00Z" },
+      "updatedAt": { "$date": "2024-10-10T00:00:00Z" }
+    }
+]

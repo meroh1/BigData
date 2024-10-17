@@ -1,0 +1,107 @@
+// roles
+
+{
+  "_id": 1,
+  "roleName": "Usuario"
+},
+{
+  "_id": 2,
+  "roleName": "Admin"
+}
+
+
+// users
+
+{
+  "_id": 1,
+  "email": "juanperez@gmail.com",
+  "passwordHash": "hash_del_password",
+  "profile": {
+    "_id": 1,
+    "channelName": "roadtomaster",
+    "firstName": "Juan Miguel",
+    "lastName": "Pérez",
+    "address": "Calle Falsa 123",
+    "phones": ["123456789", "987654321"]
+  },
+  "roles": [1],
+  "follows": [2, 3, 4, 5, 6],
+  "createdAt": { "$date": "2024-10-15T00:00:00Z" },
+  "updatedAt": { "$date": "2024-10-15T00:00:00Z" }
+}
+
+// paymentMethods
+
+{
+  "_id": 1,
+  "userId": 1,
+  "cardNumber": "4111111111111111",
+  "expirationDate": "12/26",
+  "cvv": "123",
+  "billingAddress": "Calle Falsa 123",
+  "createdAt": { "$date": "2024-10-15T00:00:00Z" },
+  "updatedAt": { "$date": "2024-10-15T00:00:00Z" }
+}
+
+// subscriptions
+
+{
+  "_id": 1,
+  "userId": 1, // ID del usuario que se suscribe
+  "streamerId": 2, // ID del streamer al que se suscribe
+  "tier": 1, // Tier de la suscripción (1, 2, etc.)
+  "startedAt": { "$date": "2024-10-15T00:00:00Z" },
+  "expiresAt": { "$date": "2024-11-15T00:00:00Z" }, // 30 días de duración
+  "paymentMethodId": 1, // Referencia al método de pago
+  "status": "active", // Puede ser "active", "canceled", etc.
+  "timestamp": { "$date": "2024-10-15T00:00:00Z" }
+}
+
+// giftedSubscriptions
+
+{
+  "_id": 1,
+  "giftedBy": 1, // ID del usuario que regala las suscripciones
+  "userIds": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], // IDs de los usuarios que reciben las suscripciones
+  "streamerId": 2, // ID del streamer al que se regalan las suscripciones
+  "tier": 1, // Tier de las suscripciones
+  "startedAt": { "$date": "2024-10-15T00:00:00Z" },
+  "expiresAt": { "$date": "2024-11-15T00:00:00Z" }, // 30 días de duración
+  "message": "¡Disfruta tu suscripción!", // Mensaje opcional
+  "timestamp": { "$date": "2024-10-15T00:00:00Z" }
+}
+
+// streams
+
+{
+  "_id": 101,
+  "userId": 1,
+  "title": "Stream de gaming",
+  "description": "Jugando un juego de estrategia",
+  "category": "Gaming",
+  "tags": ["estrategia", "multijugador"],
+  "isLive": true,
+  "createdAt": { "$date": "2024-10-15T00:00:00Z" },
+  "updatedAt": { "$date": "2024-10-15T01:00:00Z" }
+}
+
+// streamViewers 
+
+{
+  "_id": 101,
+  "streamId": 101,
+  "viewers": [1, 2, 3,200], 
+  "timestamp": { "$date": "2024-10-17T01:00:00Z" }
+}
+
+// chatMessages
+
+{
+  "_id": 1,
+  "userId": 1,
+  "streamId": 101,
+  "message": "¡Sigue así, eres increíble!",
+  "isModerator": false,
+  "isHighlighted": true,
+  "timestamp": { "$date": "2024-10-16T01:00:00Z" }
+}

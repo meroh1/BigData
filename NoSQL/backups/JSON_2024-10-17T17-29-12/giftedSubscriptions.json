@@ -1,0 +1,69 @@
+[
+    {
+      "_id": 1,
+      "giftedBy": 1,
+      "userIds": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "streamerId": 2,
+      "tier": 1,
+      "startedAt": { "$date": "2024-10-15T00:00:00Z" },
+      "expiresAt": { "$date": "2024-11-15T00:00:00Z" },
+      "message": "¡Disfruta tu suscripción!",
+      "timestamp": { "$date": "2024-10-15T00:00:00Z" }
+    },
+    {
+      "_id": 2,
+      "giftedBy": 2,
+      "userIds": [7, 8, 9],
+      "streamerId": 1,
+      "tier": 2,
+      "startedAt": { "$date": "2024-10-14T00:00:00Z" },
+      "expiresAt": { "$date": "2024-11-14T00:00:00Z" },
+      "message": "Un regalo de apreciación.",
+      "timestamp": { "$date": "2024-10-14T00:00:00Z" }
+    },
+    {
+      "_id": 3,
+      "giftedBy": 3,
+      "userIds": [5, 6],
+      "streamerId": 4,
+      "tier": 1,
+      "startedAt": { "$date": "2024-10-13T00:00:00Z" },
+      "expiresAt": { "$date": "2024-11-13T00:00:00Z" },
+      "message": "¡Gracias por el apoyo!",
+      "timestamp": { "$date": "2024-10-13T00:00:00Z" }
+    },
+    {
+      "_id": 4,
+      "giftedBy": 4,
+      "userIds": [3, 9, 10],
+      "streamerId": 2,
+      "tier": 3,
+      "startedAt": { "$date": "2024-10-12T00:00:00Z" },
+      "expiresAt": { "$date": "2024-11-12T00:00:00Z" },
+      "message": "Para los mejores seguidores.",
+      "timestamp": { "$date": "2024-10-12T00:00:00Z" }
+    },
+    {
+      "_id": 5,
+      "giftedBy": 5,
+      "userIds": [2, 3, 4],
+      "streamerId": 1,
+      "tier": 2,
+      "startedAt": { "$date": "2024-10-11T00:00:00Z" },
+      "expiresAt": { "$date": "2024-11-11T00:00:00Z" },
+      "message": "Un pequeño obsequio.",
+      "timestamp": { "$date": "2024-10-11T00:00:00Z" }
+    },
+    {
+      "_id": 6,
+      "giftedBy": 6,
+      "userIds": [9, 10],
+      "streamerId": 4,
+      "tier": 1,
+      "startedAt": { "$date": "2024-10-10T00:00:00Z" },
+      "expiresAt": { "$date": "2024-11-10T00:00:00Z" },
+      "message": "¡Gracias por el apoyo!",
+      "timestamp": { "$date": "2024-10-10T00:00:00Z" }
+    }
+]
+  

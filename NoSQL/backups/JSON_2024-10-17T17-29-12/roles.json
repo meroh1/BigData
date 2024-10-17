@@ -1,0 +1,8 @@
+[
+    { "_id": 1, "roleName": "Usuario" },
+    { "_id": 2, "roleName": "Admin" },
+    { "_id": 3, "roleName": "Moderador" },
+    { "_id": 4, "roleName": "Streamer" },
+    { "_id": 5, "roleName": "VIP" }
+  ]
+  

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"3e9c8d79c2fe4c2580f0c1c22166152e","collectionName":"streams","type":"collection"}
